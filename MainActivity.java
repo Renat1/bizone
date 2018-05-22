@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             @TargetApi(Build.VERSION_CODES.HONEYCOMB_MR2)
             public void onClick(View v) {
 
-                String manufacturer = Build.MANUFACTURER;
+                String manufacturer = Build.MANUFACTURER; //
                 String model = Build.MODEL;
                 data[1] = manufacturer + " " + model;
                 data[3] = Build.VERSION.RELEASE;
